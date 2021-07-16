@@ -1,3 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  background-color: burlywood;
+}
+
+
+
+.heading-sub{
+  color: brown;
+  text-align: center;
+  text-transform: capitalize;
+  /* font-weight: 100; */
+  padding-top: 40px;
+}
+.img-dev{
+  display: flex;
+  justify-content: center;
+}
+.img-dev img{
+  margin-top:30px;
+  width: 200px;
+  height: 250px;
+  /* align-items: center; */
+}
+.img{
+  padding-left: 5px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
