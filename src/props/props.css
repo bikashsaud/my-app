@@ -1,0 +1,44 @@
+*{
+    background-color: cornsilk;
+    /* width: 90%; */
+    
+}
+
+.div_name{
+    /* width: 25%; */
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.main_card{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px rgb(53, 53, 53);
+    width: 265px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 33px;
+
+}
+
+.title_name{
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    /* justify-content: center; */
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+a{
+    background-color: whitesmoke;
+
+}
+button{  margin-bottom: 10px;
+    margin-left: 90px;
+    margin-top: -7px;
+    color: rgb(53, 53, 53);
+    border-radius: 5px;
+    background-color: seashell;
+    
+}
