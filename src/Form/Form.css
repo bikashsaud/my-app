@@ -17,12 +17,22 @@ h3{
 }
 
 button {background-color: #008CBA;
-    margin-top: 250px;
+    margin-top: 50px;
     border: 3px solid #ffffff;
-    padding: 12px 28px;
+    padding: 6px 38px;
     cursor:pointer;
     font-size: 20px;
     color: whitesmoke;
-
-
 }
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  span{
+      text-transform: uppercase;
+  }

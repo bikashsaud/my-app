@@ -1,21 +1,22 @@
 import React, {useState} from 'react';
-import SimpleHook from './hooks/SimpleHook'
+// import SimpleHook from './hooks/SimpleHook'
+import SimpleForm from './Form/Form';
 
 const App = () =>{
-        let ftime = new Date().toLocaleTimeString();
-        const [newtime, CurrTime] = useState(ftime)
-    
-        const UpdateTime = () =>{
-            CurrTime(new Date().toLocaleTimeString())
-        }
-        setInterval(UpdateTime, 1)
-    return (<>
-        <h4 style = {
-            {textAlign:"center"}
-        }>{newtime}</h4>
+    let ftime = new Date().toLocaleTimeString();
+    const [newtime, CurrTime] = useState(ftime)
 
-    <SimpleHook />
-    </>);
+    const UpdateTime = () =>{
+        CurrTime(new Date().toLocaleTimeString())
+    }
+    setInterval(UpdateTime, 1)
+
+    return (
+            <>
+                <h4 style = {{textAlign:"center"}}>{newtime}</h4>
+                <SimpleForm />
+            </>
+        );
 }
 
 export default App; 
