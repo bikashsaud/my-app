@@ -5,10 +5,11 @@
 }
 
 .main_hook{
-    margin: 250px 0 0;
+    /* margin: 250px 0 0; */
     color: brown;
     text-align: center;
-
+    height: 530px;
+    /* background-color: teal; */
 }
 
 h3{
@@ -16,7 +17,8 @@ h3{
 }
 
 button {background-color: #008CBA;
-    border: 2px solid #de1472;
+    margin-top: 250px;
+    border: 3px solid #ffffff;
     padding: 12px 28px;
     cursor:pointer;
     font-size: 20px;
